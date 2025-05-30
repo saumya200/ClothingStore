@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.cart{
+    background-color: #fff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.05);
+}
+.cart h2{
+ font-size: 28px;
+ margin-bottom: 20px;
+ text-align: center;  
+ font-family: "Lato", sans-serif; 
+}
+.cart--empty{
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    font-family: "Lato", sans-serif;
+}
+.cart--list{
+    list-style: none;
+    padding: 0;
+}
+.cart--item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+}
+.cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item-title {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .cart-item-price {
+    font-size: 16px;
+    color: #333;
+    font-family: "Lato", sans-serif;
+  }
